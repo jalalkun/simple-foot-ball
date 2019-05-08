@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#5bf4ff">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/splashscreen"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/btn_register"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:text="Register"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btn_list_tim"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:text="List Tim"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
